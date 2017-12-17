@@ -5,7 +5,17 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
-#gem for accessing bootsrap
+#gem file for like-heart button (added)
+gem 'font-awesome-sass', '~> 4.6.2'
+#gem for upvote(added)
+gem 'acts_as_votable', '~> 0.10.0'
+#gem for easy form creation (added)
+gem 'simple_form'
+#gem for avatar(added)
+gem 'carrierwave'
+#for login-signup form (added) 
+gem 'devise'
+#gem for accessing bootstrap(added)
 gem 'bootstrap-sass', '~> 3.3.7'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.4'
