@@ -1,0 +1,19 @@
+---
+development:
+  cloud_name: sagarcr7
+  api_key: '129559827391487'
+  api_secret: EMLn5W1XFg2_-gkKWusKa9Ra9Sw
+  enhance_image_tag: true
+  static_image_support: false
+production:
+  cloud_name: sagarcr7
+  api_key: '129559827391487'
+  api_secret: EMLn5W1XFg2_-gkKWusKa9Ra9Sw
+  enhance_image_tag: true
+  static_image_support: true
+test:
+  cloud_name: sagarcr7
+  api_key: '129559827391487'
+  api_secret: EMLn5W1XFg2_-gkKWusKa9Ra9Sw
+  enhance_image_tag: true
+  static_image_support: false

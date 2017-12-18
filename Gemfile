@@ -5,6 +5,10 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
+#gem for image upload API (added)
+gem 'jquery-plugins-rails'
+#gem for cloudinary image upload (added)
+gem 'cloudinary'
 #gem file for like-heart button (added)
 gem 'font-awesome-sass', '~> 4.6.2'
 #gem for upvote(added)
